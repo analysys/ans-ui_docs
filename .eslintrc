@@ -1,0 +1,9 @@
+globals:
+  $: true
+  expect: true
+  hljs: true
+  Chart: true
+rules:
+  "no-new": "off"
+  "no-labels": [2, {"allowLoop": true}]
+  "no-useless-escape": "off"
