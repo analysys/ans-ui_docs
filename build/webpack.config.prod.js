@@ -10,7 +10,7 @@ const config = merge.smart(baseConfig, {
   devtool: 'source-map',
   output: {
     filename: 'js/[name].[chunkhash:7].js',
-    publicPath: 'ans-ui_docs'
+    publicPath: '/ans-ui_docs/'
   },
   module: {
     rules: [
