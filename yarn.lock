@@ -348,10 +348,10 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-ans-ui@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ans-ui/-/ans-ui-1.0.0.tgz#cbcec0792a1fb850584602ecdfceae02b90748af"
-  integrity sha512-UWU4OM58RxVUArWxJRKEAaRyEuvK6GQ+MN/Xh7/NV6NDwFgDhvWxVtUnf+fLqjJ/pf6iMauOSpOPDz1WdQiHKQ==
+ans-ui@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ans-ui/-/ans-ui-1.0.1.tgz#80608af270fd77c029f03a234fa30912d5eac57b"
+  integrity sha512-RNmmeiYiOBXjAsn4po5X6k6ilR7M1dfFblFjk+g0ycmNqhD9fqpmhd7W2Fx2jXvuyldYwiK2cE7vDgIlVkhbJA==
   dependencies:
     async-validator "^1.10.0"
     dayjs "^1.7.7"
