@@ -6,9 +6,9 @@
           <h2><a href="/"></a></h2>
         </div>
         <div class="version">
-          <x-select style="width: 60px;" value="1.0.1">
+          <x-select style="width: 60px;" value="1.0.2">
             <span slot="trigger" slot-scope="{selectedModel}" style="cursor: pointer;">{{selectedModel && selectedModel.label}}</span>
-            <x-option label="1.0.1"></x-option>
+            <x-option label="1.0.2"></x-option>
           </x-select>
         </div>
       </div>
