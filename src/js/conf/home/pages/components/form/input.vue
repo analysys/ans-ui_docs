@@ -324,6 +324,13 @@
             <td>—</td>
             <td>2</td>
           </tr>
+          <tr>
+            <td>validator-icon</td>
+            <td>是否开启验证性的图标，在 form 表单中可开启</td>
+            <td>Boolean</td>
+            <td>—</td>
+            <td>true</td>
+          </tr>
         </tbody>
       </table>
     </div>

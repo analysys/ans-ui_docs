@@ -471,6 +471,12 @@
             <td>—</td>
           </tr>
           <tr>
+            <td>hide-expand-icon</td>
+            <td>是否隐藏展开行图标</td>
+            <td>Boolean</td>
+            <td>false</td>
+          </tr>
+          <tr>
             <td>cell-span-method</td>
             <td>合并行或列的计算方法</td>
             <td>Function({ row, column, rowIndex, columnIndex })</td>
@@ -754,6 +760,13 @@
           <tr>
             <td>width</td>
             <td>列宽，单位为 px(只支持数值型的格式，如 400)</td>
+            <td>Number / String</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>min-width</td>
+            <td>最小列宽，单位为 px(只支持数值型的格式，如 400)</td>
             <td>Number / String</td>
             <td>—</td>
             <td>—</td>

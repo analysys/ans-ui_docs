@@ -7,14 +7,14 @@
     <p class="w-p">校验组件库里面的表单组件</p>
     <div class="demo-wrapper">
       <div class="demo-con clearfix">
-        <div class="switch-demo">
+        <div class="form-demo">
           <template>
-            <x-form ref="formVal" :model="formVal" :rules="formRules" label-width="80" label-height="32">
+            <x-form ref="formVal" :model="formVal" :rules="formRules" label-width="80">
               <x-form-item prop="username" label="帐号">
-                <x-input v-model="formVal.username" placeholder="请输入帐号" style="width: 200px;"></x-input>
+                <x-input v-model="formVal.username" placeholder="请输入帐号" style="width: 200px;" no-border></x-input>
               </x-form-item>
               <x-form-item prop="passcode" label="密码">
-                <x-input v-model="formVal.passcode" type="password" placeholder="请输入密码" style="width: 200px;"></x-input>
+                <x-input v-model="formVal.passcode" type="password" placeholder="请输入密码" style="width: 200px;" no-border></x-input>
               </x-form-item>
               <x-form-item prop="gender" label="性别">
                 <x-radio-group v-model="formVal.gender">
@@ -30,15 +30,12 @@
                 </x-checkbox-group>
               </x-form-item>
               <x-form-item prop="city" label="城市">
-                <x-select v-model="formVal.city" clearable style="width: 200px;">
+                <x-select v-model="formVal.city" clearable style="width: 200px;" :input-props="{'no-border':true}">
                   <x-option v-for="item in cities" :key="item.value" :value="item.value" :label="item.label"></x-option>
                 </x-select>
               </x-form-item>
               <x-form-item prop="startTime" label="时间">
-                <x-datepicker v-model="formVal.startTime" placeholder="选择日期" style="width: 200px;"></x-datepicker>
-              </x-form-item>
-              <x-form-item prop="desc" label="备注">
-                <x-input type="textarea" v-model="formVal.desc" placeholder="请输入备注" style="width: 200px;"></x-input>
+                <x-datepicker v-model="formVal.startTime" placeholder="选择日期" style="width: 200px;" :input-props="{'no-border':true}"></x-datepicker>
               </x-form-item>
               <x-form-item label=" ">
                 <x-button @click="submit()">提 交</x-button>
@@ -55,6 +52,51 @@
       </div>
       <div class="code-show">
         <a href="javascript:;" @click="showCode(formBasic, 'vue')">显示代码 <i class="ans-icon-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <h4 class="w-h4">垂直排列</h4>
+    <div class="demo-wrapper">
+      <div class="demo-con clearfix">
+        <div class="form-demo">
+          <template>
+            <x-form ref="formVal2" :model="formVal2" :rules="formRules" vertical>
+              <x-form-item prop="username" label="帐号">
+                <x-input v-model="formVal2.username" placeholder="请输入帐号" style="width: 200px;" no-border></x-input>
+              </x-form-item>
+              <x-form-item prop="passcode" label="密码">
+                <x-input v-model="formVal2.passcode" type="password" placeholder="请输入密码" style="width: 200px;" no-border></x-input>
+              </x-form-item>
+              <x-form-item prop="gender" label="性别">
+                <x-radio-group v-model="formVal2.gender">
+                  <x-radio label="1">男</x-radio>
+                  <x-radio label="2">女</x-radio>
+                </x-radio-group>
+              </x-form-item>
+              <x-form-item prop="hobby" label="爱好">
+                <x-checkbox-group v-model="formVal2.hobby">
+                  <x-checkbox label="跑步">跑步</x-checkbox>
+                  <x-checkbox label="篮球">篮球</x-checkbox>
+                  <x-checkbox label="足球">足球</x-checkbox>
+                </x-checkbox-group>
+              </x-form-item>
+              <x-form-item prop="city" label="城市">
+                <x-select v-model="formVal2.city" clearable style="width: 200px;" :input-props="{'no-border':true}">
+                  <x-option v-for="item in cities" :key="item.value" :value="item.value" :label="item.label"></x-option>
+                </x-select>
+              </x-form-item>
+              <x-form-item prop="startTime" label="时间">
+                <x-datepicker v-model="formVal2.startTime" placeholder="选择日期" style="width: 200px;" :input-props="{'no-border':true}"></x-datepicker>
+              </x-form-item>
+              <x-form-item label=" ">
+                <x-button @click="submit('formVal2')">提 交</x-button>
+              </x-form-item>
+            </x-form>
+          </template>
+        </div>
+      </div>
+      <div class="code-show">
+        <a href="javascript:;" @click="showCode(formVertical, 'vue')">显示代码 <i class="ans-icon-arrow-right"></i></a>
       </div>
     </div>
 
@@ -99,6 +141,13 @@
             <td>Number / String</td>
             <td>—</td>
             <td>—</td>
+          </tr>
+          <tr>
+            <td>vertical</td>
+            <td>表单的标签和元素是否上下结构</td>
+            <td>Boolean</td>
+            <td>—</td>
+            <td>false</td>
           </tr>
         </tbody>
       </table>
@@ -244,8 +293,15 @@ export default {
         gender: '',
         hobby: [],
         city: '',
-        startTime: '',
-        desc: ''
+        startTime: ''
+      },
+      formVal2: {
+        username: '',
+        passcode: '',
+        gender: '',
+        hobby: [],
+        city: '',
+        startTime: ''
       },
       formRules: {
         username: [
@@ -266,9 +322,6 @@ export default {
         ],
         startTime: [
           { required: true, message: '请选择日期', trigger: 'change' }
-        ],
-        desc: [
-          { required: true, message: '请输入备注', trigger: 'blur' }
         ]
       },
       cities: [{
@@ -291,12 +344,12 @@ export default {
         label: '广州'
       }],
       formBasic: `<template>
-  <x-form ref="formVal" :model="formVal" :rules="formRules" label-width="80" label-height="32">
+  <x-form ref="formVal" :model="formVal" :rules="formRules" label-width="80">
     <x-form-item prop="username" label="帐号">
-      <x-input v-model="formVal.username" placeholder="请输入帐号" style="width: 200px;"></x-input>
+      <x-input v-model="formVal.username" placeholder="请输入帐号" style="width: 200px;" no-border></x-input>
     </x-form-item>
     <x-form-item prop="passcode" label="密码">
-      <x-input v-model="formVal.passcode" type="password" placeholder="请输入密码" style="width: 200px;"></x-input>
+      <x-input v-model="formVal.passcode" type="password" placeholder="请输入密码" style="width: 200px;" no-border></x-input>
     </x-form-item>
     <x-form-item prop="gender" label="性别">
       <x-radio-group v-model="formVal.gender">
@@ -312,15 +365,12 @@ export default {
       </x-checkbox-group>
     </x-form-item>
     <x-form-item prop="city" label="城市">
-      <x-select v-model="formVal.city" clearable style="width: 200px;">
+      <x-select v-model="formVal.city" clearable style="width: 200px;" :input-props="{'no-border':true}">
         <x-option v-for="item in cities" :key="item.value" :value="item.value" :label="item.label"></x-option>
       </x-select>
     </x-form-item>
     <x-form-item prop="startTime" label="时间">
-      <x-datepicker v-model="formVal.startTime" placeholder="选择日期" style="width: 200px;"></x-datepicker>
-    </x-form-item>
-    <x-form-item prop="desc" label="备注">
-      <x-input type="textarea" v-model="formVal.desc" placeholder="请输入备注" style="width: 200px;"></x-input>
+      <x-datepicker v-model="formVal.startTime" placeholder="选择日期" style="width: 200px;" :input-props="{'no-border':true}"></x-datepicker>
     </x-form-item>
     <x-form-item label=" ">
       <x-button @click="submit()">提 交</x-button>
@@ -338,8 +388,7 @@ export default {
         gender: '',
         hobby: [],
         city: '',
-        startTime: '',
-        desc: ''
+        startTime: ''
       },
       formRules: {
         username: [
@@ -360,9 +409,108 @@ export default {
         ],
         startTime: [
           { required: true, message: '请选择日期', trigger: 'change' }
+        ]
+      },
+      cities: [{
+        value: 'Beijing',
+        label: '北京'
+      }, {
+        value: 'Shanghai',
+        label: '上海'
+      }, {
+        value: 'Nanjing',
+        label: '南京'
+      }, {
+        value: 'Chengdu',
+        label: '成都'
+      }, {
+        value: 'Shenzhen',
+        label: '深圳'
+      }, {
+        value: 'Guangzhou',
+        label: '广州'
+      }]
+    }
+  },
+  methods: {
+    submit () {
+      this.$refs['formVal'].validate(valid => {
+        if(valid){
+          console.log('success')
+        }else{
+          console.log('error')
+        }
+      })
+    }
+  }
+}
+<\/script>`,
+      formVertical: `<template>
+  <x-form ref="formVal" :model="formVal" :rules="formRules" vertical>
+    <x-form-item prop="username" label="帐号">
+      <x-input v-model="formVal.username" placeholder="请输入帐号" style="width: 200px;" no-border></x-input>
+    </x-form-item>
+    <x-form-item prop="passcode" label="密码">
+      <x-input v-model="formVal.passcode" type="password" placeholder="请输入密码" style="width: 200px;" no-border></x-input>
+    </x-form-item>
+    <x-form-item prop="gender" label="性别">
+      <x-radio-group v-model="formVal.gender">
+        <x-radio label="1">男</x-radio>
+        <x-radio label="2">女</x-radio>
+      </x-radio-group>
+    </x-form-item>
+    <x-form-item prop="hobby" label="爱好">
+      <x-checkbox-group v-model="formVal.hobby">
+        <x-checkbox label="跑步">跑步</x-checkbox>
+        <x-checkbox label="篮球">篮球</x-checkbox>
+        <x-checkbox label="足球">足球</x-checkbox>
+      </x-checkbox-group>
+    </x-form-item>
+    <x-form-item prop="city" label="城市">
+      <x-select v-model="formVal.city" clearable style="width: 200px;" :input-props="{'no-border':true}">
+        <x-option v-for="item in cities" :key="item.value" :value="item.value" :label="item.label"></x-option>
+      </x-select>
+    </x-form-item>
+    <x-form-item prop="startTime" label="时间">
+      <x-datepicker v-model="formVal.startTime" placeholder="选择日期" style="width: 200px;" :input-props="{'no-border':true}"></x-datepicker>
+    </x-form-item>
+    <x-form-item label=" ">
+      <x-button @click="submit()">提 交</x-button>
+    </x-form-item>
+  </x-form>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      formVal: {
+        username: '',
+        passcode: '',
+        gender: '',
+        hobby: [],
+        city: '',
+        startTime: ''
+      },
+      formRules: {
+        username: [
+          { required: true, message: '请输入帐号', trigger: 'blur' }
         ],
-        desc: [
-          { required: true, message: '请输入备注', trigger: 'blur' }
+        passcode: [
+          { required: true, message: '请输入密码', trigger: 'blur' },
+          { required: true, min: 6, max: 12, message: '密码长度在6-12之间', trigger: 'blur' }
+        ],
+        gender: [
+          { required: true, message: '请选择性别', trigger: 'change' }
+        ],
+        hobby: [
+          { required: true, type: 'array', message: '请选择爱好', trigger: 'change' }
+        ],
+        city: [
+          { required: true, message: '请选择城市', trigger: 'change' }
+        ],
+        startTime: [
+          { required: true, message: '请选择日期', trigger: 'change' }
         ]
       },
       cities: [{
@@ -417,8 +565,8 @@ export default {
         }
       })
     },
-    submit () {
-      this.$refs['formVal'].validate(valid => {
+    submit (form = 'formVal') {
+      this.$refs[form].validate(valid => {
         if (valid) {
           console.log('success')
         } else {

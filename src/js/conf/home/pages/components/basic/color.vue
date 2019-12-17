@@ -80,8 +80,8 @@
           <p class="color-t">#c5ced8</p>
           <p class="color-v">禁用文字颜色</p>
         </div>
-        <div class="fl-l color-item" style="background-color: #c0c0c0;">
-          <p class="color-t" style="color: #3e3e3e;">#c0c0c0</p>
+        <div class="fl-l color-item" style="background-color: #9cacbf;">
+          <p class="color-t" style="color: #3e3e3e;">#9cacbf</p>
           <p class="color-v" style="color: #3e3e3e;">文字颜色，用于暗提示</p>
         </div>
         <div class="fl-l color-item" style="background-color: #e4eaf1;">
@@ -142,9 +142,9 @@ export default {
   .color-wrapper {
     .color-con {
       .color-item {
-        border-radius:2px;
-        width:207px;
-        height:80px;
+        border-radius: 2px;
+        width: 207px;
+        height: 80px;
         margin-right: 20px;
         margin-bottom: 20px;
         p {

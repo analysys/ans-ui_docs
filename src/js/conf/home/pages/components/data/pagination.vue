@@ -195,6 +195,11 @@
         </thead>
         <tbody>
           <tr>
+            <td>on-size-change</td>
+            <td>pageSize 改变时会触发</td>
+            <td>每页条数</td>
+          </tr>
+          <tr>
             <td>on-change</td>
             <td>页码切换时触发</td>
             <td>返回当前页码</td>

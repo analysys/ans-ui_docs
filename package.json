@@ -9,7 +9,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "ans-ui": "1.0.2",
+    "ans-ui": "1.1.5",
     "autoprefixer": "^9.1.0",
     "babel-core": "^6.25.0",
     "babel-eslint": "^8.2.2",

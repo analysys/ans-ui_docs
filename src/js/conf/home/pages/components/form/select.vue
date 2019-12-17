@@ -399,7 +399,14 @@
           </tr>
           <tr>
             <td>highlight-matched-text</td>
-            <td>搜索时是否高亮选项中匹配的文字，(仅当未设置 filter-props 时可用)</td>
+            <td>搜索时是否高亮选项中匹配的文字</td>
+            <td>Boolean</td>
+            <td>—</td>
+            <td>false</td>
+          </tr>
+          <tr>
+            <td>ignore-case</td>
+            <td>搜索时是否忽略大小写，可以和 filter-props 以及 highlight-matched-text 配合使用</td>
             <td>Boolean</td>
             <td>—</td>
             <td>false</td>

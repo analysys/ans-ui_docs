@@ -117,6 +117,13 @@
             <td>请选择时间</td>
           </tr>
           <tr>
+            <td>input-props</td>
+            <td>timepicker 组件中 input 组件的属性</td>
+            <td>Object</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
             <td>readonly</td>
             <td>是否只读</td>
             <td>Boolean</td>

@@ -227,6 +227,13 @@
             <td>请选择日期</td>
           </tr>
           <tr>
+            <td>input-props</td>
+            <td>datepicker 组件中 input 组件的属性</td>
+            <td>Object</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
             <td>options</td>
             <td>快捷方式配置</td>
             <td>Array</td>

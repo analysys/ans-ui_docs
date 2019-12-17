@@ -199,6 +199,13 @@
             <td>false</td>
           </tr>
           <tr>
+            <td>only-show-last</td>
+            <td>是否只展示最后一级的值</td>
+            <td>Boolean</td>
+            <td>—</td>
+            <td>false</td>
+          </tr>
+          <tr>
             <td>placement</td>
             <td>弹出位置</td>
             <td>String</td>

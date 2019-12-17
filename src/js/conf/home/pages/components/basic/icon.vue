@@ -23,30 +23,64 @@
         <tbody>
           <tr>
             <td>
+              <p><i class="ans-icon-arrow-down"></i></p>
+              <p>arrow-down</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-arrow-up"></i></p>
+              <p>arrow-up</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-arrow-right"></i></p>
+              <p>arrow-right</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-arrow-left"></i></p>
+              <p>arrow-left</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-arrow-to-right"></i></p>
+              <p>arrow-to-right</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-arrow-to-left"></i></p>
+              <p>arrow-to-left</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-check"></i></p>
+              <p>check</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-close"></i></p>
+              <p>close</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-calendar"></i></p>
+              <p>calendar</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-search"></i></p>
+              <p>search</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-filter"></i></p>
+              <p>filter</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-more"></i></p>
+              <p>more</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
               <p><i class="ans-icon-success-solid"></i></p>
               <p>success-solid</p>
             </td>
             <td>
               <p><i class="ans-icon-success-empty"></i></p>
               <p>success-empty</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-notice-solid"></i></p>
-              <p>notice-solid</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-notice-empty"></i></p>
-              <p>notice-empty</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-warn-solid"></i></p>
-              <p>warn-solid</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p><i class="ans-icon-warn-empty"></i></p>
-              <p>warn-empty</p>
             </td>
             <td>
               <p><i class="ans-icon-fail-solid"></i></p>
@@ -57,70 +91,138 @@
               <p>fail-empty</p>
             </td>
             <td>
-              <p><i class="ans-icon-arrow-to-left"></i></p>
-              <p>arrow-to-left</p>
+              <p><i class="ans-icon-warn-solid"></i></p>
+              <p>warn-solid</p>
             </td>
             <td>
-              <p><i class="ans-icon-arrow-to-right"></i></p>
-              <p>arrow-to-right</p>
+              <p><i class="ans-icon-warn-empty"></i></p>
+              <p>warn-empty</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p><i class="ans-icon-more"></i></p>
-              <p>more</p>
+              <p><i class="ans-icon-notice-solid"></i></p>
+              <p>notice-solid</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-notice-empty"></i></p>
+              <p>notice-empty</p>
             </td>
             <td>
               <p><i class="ans-icon-spinner"></i></p>
               <p>spinner</p>
             </td>
             <td>
-              <p><i class="ans-icon-close"></i></p>
-              <p>close</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-check"></i></p>
-              <p>check</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-calendar"></i></p>
-              <p>calendar</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
               <p><i class="ans-icon-off"></i></p>
               <p>off</p>
             </td>
             <td>
-              <p><i class="ans-icon-search"></i></p>
-              <p>search</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-arrow-left"></i></p>
-              <p>arrow-left</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-arrow-right"></i></p>
-              <p>arrow-right</p>
-            </td>
-            <td>
-              <p><i class="ans-icon-arrow-up"></i></p>
-              <p>arrow-up</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p><i class="ans-icon-arrow-down"></i></p>
-              <p>arrow-down</p>
+              <p><i class="ans-icon-no-data"></i></p>
+              <p>no-data</p>
             </td>
             <td>
               <p><i class="ans-icon-search-no-data"></i></p>
               <p>search-no-data</p>
             </td>
+          </tr>
+          <tr>
             <td>
-              <p><i class="ans-icon-no-data"></i></p>
-              <p>no-data</p>
+              <p><i class="ans-icon-increase"></i></p>
+              <p>increase</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-reduce"></i></p>
+              <p>reduce</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-eye"></i></p>
+              <p>eye</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-amount-asc"></i></p>
+              <p>amount-asc</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-amount-desc"></i></p>
+              <p>amount-desc</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-edit"></i></p>
+              <p>edit</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-download"></i></p>
+              <p>download</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-trash"></i></p>
+              <p>trash</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-refresh"></i></p>
+              <p>refresh</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-play"></i></p>
+              <p>play</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-pause"></i></p>
+              <p>pause</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-stop"></i></p>
+              <p>stop</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-downward"></i></p>
+              <p>downward</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-upward"></i></p>
+              <p>upward</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-user-empty"></i></p>
+              <p>user-empty</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-user-solid"></i></p>
+              <p>user-solid</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-datetime"></i></p>
+              <p>datetime</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-timer"></i></p>
+              <p>timer</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-log"></i></p>
+              <p>log</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-node"></i></p>
+              <p>node</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-pen"></i></p>
+              <p>refresh</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-paper"></i></p>
+              <p>play</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-gantt"></i></p>
+              <p>pause</p>
             </td>
           </tr>
         </tbody>

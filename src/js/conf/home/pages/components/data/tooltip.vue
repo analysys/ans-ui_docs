@@ -174,7 +174,7 @@
             <td>triggerEvent</td>
             <td>触发提示事件</td>
             <td>String</td>
-            <td>click / mouseenter</td>
+            <td>click / mouseenter / manual</td>
             <td>mouseenter</td>
           </tr>
           <tr>
@@ -189,7 +189,7 @@
             <td>提示内容最大宽度，超过该宽度换行</td>
             <td>String</td>
             <td>—</td>
-            <td>200px</td>
+            <td>370px</td>
           </tr>
           <tr>
             <td>positionFixed</td>
@@ -212,6 +212,13 @@
             <td>—</td>
             <td>false</td>
           </tr>
+          <tr>
+            <td>reveal</td>
+            <td>当 triggerEvent 为 `manual` 的时候，控制 tooltip 是否显示</td>
+            <td>Boolean</td>
+            <td>—</td>
+            <td>false</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -227,7 +234,7 @@ export default {
       text: '文字提示',
       options: {
         text: '详细配置提示，可以通过设置 maxWidth 来控制换行',
-        maxWidth: '200px',
+        maxWidth: '370px',
         placement: 'right-bottom',
         theme: 'light',
         triggerEvent: 'click',
@@ -269,7 +276,7 @@ export default {
     return {
       options: {
         text: '详细配置提示，可以通过设置 maxWidth 来控制换行',
-        maxWidth: '200px',
+        maxWidth: '370px',
         placement: 'right-bottom',
         theme: 'light',
         triggerEvent: 'click',
