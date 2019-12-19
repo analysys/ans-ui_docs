@@ -130,7 +130,6 @@ const baseConfig = {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          publicPath: distDir,
           name: 'font/[name].[hash:7].[ext]'
         }
       }
