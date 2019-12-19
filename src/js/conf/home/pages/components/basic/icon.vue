@@ -214,15 +214,181 @@
             </td>
             <td>
               <p><i class="ans-icon-pen"></i></p>
-              <p>refresh</p>
+              <p>pen</p>
             </td>
             <td>
               <p><i class="ans-icon-paper"></i></p>
-              <p>play</p>
+              <p>paper</p>
             </td>
             <td>
               <p><i class="ans-icon-gantt"></i></p>
-              <p>pause</p>
+              <p>gantt</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-monitor"></i></p>
+              <p>monitor</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-shield"></i></p>
+              <p>shield</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-slash"></i></p>
+              <p>slash</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-copy"></i></p>
+              <p>copy</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-menu"></i></p>
+              <p>menu</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-clock"></i></p>
+              <p>clock</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-gear"></i></p>
+              <p>gear</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-line-arrow-up"></i></p>
+              <p>line-arrow-up</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-line-arrow-down"></i></p>
+              <p>line-arrow-down</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-documents"></i></p>
+              <p>documents</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-group"></i></p>
+              <p>group</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-spinner2"></i></p>
+              <p>spinner2</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-user-circle-solid"></i></p>
+              <p>user-circle-solid</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-document"></i></p>
+              <p>document</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-recycle"></i></p>
+              <p>recycle</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-danger-solid"></i></p>
+              <p>danger-solid</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-triangle-solid-right"></i></p>
+              <p>triangle-solid-right</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-save"></i></p>
+              <p>save</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-diary"></i></p>
+              <p>diary</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-arrow-circle-right"></i></p>
+              <p>arrow-circle-right</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-code"></i></p>
+              <p>code</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-forbidden"></i></p>
+              <p>forbidden</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-minus-circle-empty"></i></p>
+              <p>minus-circle-empty</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-max"></i></p>
+              <p>max</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-min"></i></p>
+              <p>min</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-upload"></i></p>
+              <p>upload</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-sand-clock"></i></p>
+              <p>sand-clock</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-pointer"></i></p>
+              <p>pointer</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-home-empty"></i></p>
+              <p>home-empty</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-home-solid"></i></p>
+              <p>home-solid</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-folder-empty"></i></p>
+              <p>folder-empty</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-coin"></i></p>
+              <p>coin</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-dependence"></i></p>
+              <p>dependence</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-setting"></i></p>
+              <p>setting</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-key"></i></p>
+              <p>key</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-dot-circle"></i></p>
+              <p>dot-circle</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-file-download"></i></p>
+              <p>file-download</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i class="ans-icon-pause-solid"></i></p>
+              <p>pause-solid</p>
             </td>
           </tr>
         </tbody>
