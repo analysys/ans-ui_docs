@@ -390,6 +390,18 @@
               <p><i class="ans-icon-pause-solid"></i></p>
               <p>pause-solid</p>
             </td>
+            <td>
+              <p><i class="ans-icon-circle-solid"></i></p>
+              <p>circle-solid</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-rect-solid"></i></p>
+              <p>rect-solid</p>
+            </td>
+            <td>
+              <p><i class="ans-icon-database"></i></p>
+              <p>database</p>
+            </td>
           </tr>
         </tbody>
       </table>
