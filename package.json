@@ -39,7 +39,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "popper.js": "^1.14.4",
     "postcss-loader": "^2.1.6",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.23.0",
     "rimraf": "^2.6.2",
     "sass-loader": "^7.1.0",
     "uglifyjs-webpack-plugin": "^2.1.3",
